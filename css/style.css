@@ -8,6 +8,11 @@
   border: 2px solid black; /* Add thick black border around text */
 }
 
+a {
+  color: black; /* Ensure link text color is black */
+  border: 2px solid black; /* Add thick black border around links */
+}
+
 a:hover {
   color: black; /* Keep text color black on hover */
   border-color: black; /* Ensure border remains black on hover */
@@ -15,10 +20,18 @@ a:hover {
 
 footer {
   text-align: center;
+  position: fixed; /* Changed to fixed to ensure footer stays at the bottom */
   left: 0;
   right: 0;
-  bottom: 1em;
+  bottom: 0; /* Adjusted to 0 to align with the bottom of the viewport */
   font-size: 0.75em;
   color: black; /* Ensure footer text is also black */
   border: 2px solid black; /* Add thick black border around footer text */
+}
+
+/* Additional styling to ensure "Follow" text matches */
+.follow {
+  color: black; /* Ensure "Follow" text color is black */
+  border: 2px solid black; /* Add thick black border around "Follow" text */
+  padding: 0.5em; /* Optional: add padding to make border visible */
 }
