@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   font-family: "Luckiest Guy", sans-serif;
-  color: #39ff14;
+  color: #00ff00; /* Brighter neon green */
   line-height: 1.5em;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1bae00;
+  color: #00e600; /* Slightly darker neon green for hover effect */
 }
 
 footer {
@@ -17,4 +17,5 @@ footer {
   right: 0;
   bottom: 1em;
   font-size: 0.75em;
+  color: #00ff00; /* Ensures footer text is also neon green */
 }
