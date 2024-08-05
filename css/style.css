@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: "Luckiest Guy", sans-serif;
-  color: #00ff00; /* Brighter neon green */
+  color: black; /* Change text color to black */
   line-height: 1.5em;
   text-decoration: none;
+  border: 2px solid black; /* Add thick black border around text */
 }
 
 a:hover {
-  color: white; /* Slightly darker neon green for hover effect */
+  color: black; /* Keep text color black on hover */
+  border-color: black; /* Ensure border remains black on hover */
 }
 
 footer {
@@ -17,5 +19,6 @@ footer {
   right: 0;
   bottom: 1em;
   font-size: 0.75em;
-  color: #00ff00; /* Ensures footer text is also neon green */
+  color: black; /* Ensure footer text is also black */
+  border: 2px solid black; /* Add thick black border around footer text */
 }
