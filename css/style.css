@@ -2,19 +2,19 @@
   margin: 0;
   padding: 0;
   font-family: "Luckiest Guy", sans-serif;
-  color: black; /* Change text color to black */
+  color: green; /* Change text color to black */
   line-height: 1.5em;
   text-decoration: none;
   border: 2px solid black; /* Add thick black border around text */
 }
 
 a {
-  color: black; /* Ensure link text color is black */
+  color: green; /* Ensure link text color is black */
   border: 2px solid black; /* Add thick black border around links */
 }
 
 a:hover {
-  color: black; /* Keep text color black on hover */
+  color: green; /* Keep text color black on hover */
   border-color: black; /* Ensure border remains black on hover */
 }
 
@@ -31,7 +31,7 @@ footer {
 
 /* Additional styling to ensure "Follow" text matches */
 .follow {
-  color: black; /* Ensure "Follow" text color is black */
+  color: green; /* Ensure "Follow" text color is black */
   border: 2px solid black; /* Add thick black border around "Follow" text */
   padding: 0.5em; /* Optional: add padding to make border visible */
 }
